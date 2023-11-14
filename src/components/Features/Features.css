@@ -1,0 +1,258 @@
+:root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem grba(0,0,0,.1);
+    --border: 2rem solid grba(0,0,0,.1);
+    --outline: 1rem solid grba(0,0,0,.1);
+    --outline-hover: .2rem solid var(--black);
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+ }
+ .features{
+    padding-top: 150px;
+    padding-bottom: 150px;
+   
+ }
+.img-features{
+    width: 220px;
+    height: 190px;
+ }
+
+ .features .box-container{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    
+ }
+ .features .box-container .box{
+    padding:3rem 2rem ;
+   background-color:white;
+    outline: rgb(220, 216, 216);
+    outline-offset: -1rem;
+    text-align: center;
+    
+    border-radius: 5px;
+    width: 450px;
+    
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+    
+ }
+ .features .box-container .box:hover{
+    
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+   
+ }
+ .features .box-container .box img{
+    margin: 1rem 0;
+    height: 12rem;
+ }
+ .features .box-container .box h3{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: var(--black);
+ }
+ .features .box-container .box button{
+    font-size: 1.1rem;
+    width: 155px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+ }
+ .features .box-container .box button:hover{
+    color: white;
+    background-color:red;
+ }
+ 
+ @media screen and (max-width:391px) {
+   .img{
+      width: 65px;
+      height: 65px;
+   }
+   .features{
+      padding-top: 150px;
+      padding-bottom: 100px;
+     
+   }
+  .img-features{
+      width: 140px;
+      height: 100px;
+   }
+  
+   .features .box-container{
+    
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      gap:30px;
+      
+   }
+   .features .box-container .box{
+      padding:2rem 1rem ;
+    
+      width: 250px;
+      
+    
+     
+     
+      
+   }
+   
+   .features .box-container .box img{
+      margin: 1rem 0;
+      height: 7rem;
+   }
+   .features .box-container .box h3{
+      font-size: 0.8rem;
+      line-height: 1;
+      
+   }
+   .features .box-container .box button{
+      font-size: 0.9rem;
+      width: 100px;
+      height: 35px;
+      text-align: center;
+      padding: 5px;
+      margin-top: 15px;
+      
+     
+   }
+ 
+   
+  
+ }
+ 
+ @media screen and (min-width:391px) and (max-width:768px) {
+   .img{
+      width: 85px;
+      height: 85px;
+   }
+   .features{
+      padding-top: 150px;
+      padding-bottom: 120px;
+     
+   }
+  .img-features{
+      width: 175px;
+      height: 180px;
+   }
+  
+   .features .box-container{
+    
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:35px;
+      
+   }
+   .features .box-container .box{
+      padding:2rem 1rem ;
+    
+      width: 300px;
+      
+    
+     
+     
+      
+   }
+   
+   .features .box-container .box img{
+      margin: 1.5rem 0;
+      height: 8.5rem;
+   }
+   .features .box-container .box h3{
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      
+   }
+   .features .box-container .box button{
+      font-size: 1.1rem;
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      padding: 8px;
+      margin-top: 18px;
+      
+     
+   }
+ 
+   
+   
+  
+ }
+ @media screen and (min-width:769px) {
+   .img{
+      width: 100px;
+      height: 100px;
+   }
+   .features{
+      padding-top: 150px;
+      padding-bottom: 120px;
+     
+   }
+  .img-features{
+      width: 220px;
+      height: 250px;
+   }
+  
+   .features .box-container{
+    
+      flex-wrap: wrap;
+     
+      justify-content: center;
+      align-items: center;
+      gap:40px;
+      
+   }
+   .features .box-container .box{
+      padding:2rem 1rem ;
+    
+      width: 350px;
+      
+    
+     
+     
+      
+   }
+   
+   .features .box-container .box img{
+      margin: 1.8rem 0;
+      height: 9rem;
+   }
+   .features .box-container .box h3{
+      font-size: 1.5rem;
+      line-height: 1.3rem;
+      
+   }
+   .features .box-container .box button{
+      font-size: 1.3rem;
+      width: 150px;
+      height: 45px;
+      text-align: center;
+      padding: 6px;
+      margin-top: 20px;
+      
+     
+   }
+ }
+ 

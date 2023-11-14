@@ -1,0 +1,122 @@
+.comming{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 200px; 
+   padding-bottom: 100px;
+}
+.comming img{
+    width: 65%;
+ }
+ .back{
+  
+   background-color: orange;
+   width: 20%;
+   border-bottom-left-radius: 65px;
+   border-Top-left-radius: 65px;
+   margin-top: 50px;
+  
+
+ }
+ .back h1{
+  
+   font-size: 25px;
+   color: white;
+   align-self: center;
+   padding: 10px;
+  
+
+ }
+
+ .back h1:link{
+  
+  text-decoration: none;
+ 
+
+}
+
+
+ @media screen and (max-width:391px) {
+  .comming{
+   
+   
+    padding-top: 150px; 
+  
+ }
+ .comming img{
+   width:80% ;
+  }
+  .back{
+  
+  
+    width: 45%;
+   
+   
+ 
+  }
+ 
+  .back h1{
+   
+    font-size: 12px;
+    
+    padding: 8px;
+   
+ 
+  }
+}
+
+@media screen and (min-width:391px) and (max-width:768px) {
+  .comming{
+   
+  
+    padding-top: 150px; 
+    padding-bottom: 100px;
+ }
+ .comming img{
+     width: 80%;
+  }
+  .back{
+   
+  
+    width: 45%;
+    
+   
+ 
+  }
+  .back h1{
+   
+    font-size: 18px;
+    color: white;
+    align-self: center;
+    padding: 10px;
+   
+ 
+  }
+}
+@media screen and (min-width:769px) {
+  .comming{
+   
+    
+    padding-top: 200px; 
+    padding-bottom: 100px;
+ }
+ .comming img{
+     width: 60%;
+  }
+  .back{
+   
+    
+    width: 35%;
+    
+   
+ 
+  }
+  .back h1{
+   
+    font-size: 20px;
+    
+   
+ 
+  }
+}
