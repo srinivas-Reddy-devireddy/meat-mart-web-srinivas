@@ -25,6 +25,19 @@
    
    
    }
+
+    .foote-logoheading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(18, 42, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .foote-logoheading h2 span {
+    font-size: 3rem;
+  }
    .footer-links{
        display: flex;
        list-style: none;
@@ -98,6 +111,14 @@
         
         
         }
+        .foote-logoheading {
+            font-size: 1.9rem;
+            
+          }
+          
+          .foote-logoheading h2 span {
+            font-size: 2.5rem;
+          }
         .footer-links{
          
             gap: 12px;

@@ -26,6 +26,9 @@ const Contact = () => {
 
   
   return (
+
+
+    
     <section className="contact-section">
         <div>
         <div className="contact-me">
@@ -71,6 +74,7 @@ const Contact = () => {
        
     
     </section>
+   
   )
 }
 

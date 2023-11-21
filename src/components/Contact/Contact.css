@@ -1,12 +1,16 @@
 
 
+
   .contact-section{
     display: flex;
     justify-content: center;
    
     width: 100%;
-  flex-direction: row;
+    flex-direction: row;
     padding-top: 130px;
+    background-color: skyblue;
+   
+   
   }
   .contact-me{
     
@@ -19,16 +23,21 @@
   }
   .contact-me h3{
     padding: 10px;
-    letter-spacing: 2px;
-    color: green;
+    letter-spacing: 1.5px;
+    color: black;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 
   }
+  ::placeholder {
+    color: gray;
+    
+    
+  }
   .contact-me .info{
-  border: 2px solid orange;
+  border: 2px solid black;
   padding: 40px;
   border-radius: 10px;
   display: flex;
@@ -45,9 +54,9 @@
     .contact-me .info ul li {
        text-align: center
        ;
-       color: gray;
-       font-weight: bold;
-      
+       color: black;
+       font-weight: 700;
+      cursor: pointer;
         align-self: center;
         list-style-type: none;
         padding-top: 18.5px;
@@ -55,7 +64,7 @@
       
         }
         .contact-me .info ul  .one {
-          margin-left: -105px;
+          margin-left: -110px;
            
              }
              .contact-me .info ul   .two {
@@ -63,7 +72,8 @@
                  
                    }
   .contact-me div i{
-   color: blueviolet;
+   color: green;
+   cursor: pointer;
    padding-top: 20px;
    font-size: 20px;
   
@@ -75,11 +85,12 @@
     align-items: center;
    
    
+   
   }
   .container h2{
     padding: 10px;
     letter-spacing: 2px;
-    color: green;
+    color: black;
     font-size: 40px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -94,38 +105,45 @@
   }
   .container form input{
     width: 130%;
-   
+ border-radius: 5px;
     margin: 5px;
-    border: solid 2px;
+    border: none ;
+    outline: none;
     padding: 2px;
+    background-color: transparent;
+   color: black;
+   border: 2px solid black;
 
     
   }
   .container form textarea{
     width: 150%;
     margin: 5px;
-    border: solid 2px;
+    border: solid 2px black;
     padding: 2px;
-     
+    border-radius: 5px;
+    color: black;
+    background-color: transparent;
   }
   .container form button{
-    width: 80%;
+    width: 60%;
     text-align: center;
    align-self: center;
    margin-left: 89px;
-   padding: 10px;
+   padding: 15px;
    margin-top: 15px;
    margin-bottom: 15px;
    color: white;
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 500;
-   border-radius: 10px;
+   border-radius: 28px;
    border: solid 1px gray;
-   background: green;
+   background: rgb(91, 2, 91);
  } 
  .container form button:hover{
     cursor: pointer;
-
+background-color: white;
+color: rgb(91, 2, 91) ;
     outline-offset: 0.2vw;
  } 
 
@@ -153,7 +171,7 @@
   .contact-me h3{
     padding: 5px;
     letter-spacing: .02px;
-    color: green;
+    color: black;
     font-size: 18px;
     
   
@@ -205,7 +223,7 @@
     padding: 10px;
     letter-spacing: 0.2px;
    
-    font-size: 25px;
+    font-size: 19px;
    
   }
 
@@ -224,7 +242,7 @@
      
   }
   .container form button{
-    width: 60%;
+    width: 70%;
    
    
    color: white;

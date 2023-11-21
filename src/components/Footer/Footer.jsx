@@ -8,7 +8,13 @@ const Footer = () => {
     <div className="footer">
 <div className='footer-logo'>
        <i className='fas fa-winemart'></i>
-        <p>Meat Mart</p>
+       <div className="foote-logoheading " >
+        <h2>
+         <span>M</span>EAT 
+         <span>M</span>ART
+        
+        </h2>
+        </div>
 
     </div>
     <ul className="footer-links">
